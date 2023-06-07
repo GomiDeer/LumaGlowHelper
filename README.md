@@ -11,7 +11,7 @@ This file is not maintained by Furality, however I plan to update it ASAP whenev
 
 ```IsLumaAvailable()``` is pretty self-explanatory and checks to see, first, if AudioLink is available, and then checks to see if Luma is enabled on the texture.
 
-```GetLumaZone(uint zone, uint delay)``` returns the given color value for one of the four color zones luma provides. Valid values for "zone" are 1-3, outside of that you will be sampling from incorrect values. Anything outside of 1-4 will be converted to 1.
+```GetLumaZone(uint zone, uint delay)``` returns the given color value for one of the four color zones luma provides. Valid values for "zone" are 1-4, outside of that you will be sampling from incorrect values. Anything outside of 1-4 will be converted to 1.
 
 ```GetLumaGradientZone(uint zone, uint delay)``` returns the given color value for one of the three gradient zones Luma provides. Valid values for "zone" are 1-3, outside of that you will be sampling from incorrect values. Anything outside of 1-3 will be converted to 1.
 
